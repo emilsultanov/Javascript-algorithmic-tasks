@@ -1,1 +1,0 @@
-N is given find factorial of N.

@@ -1,1 +1,0 @@
-1-den 1000-e qeder ederlerin icerisinden  ele ededleri cap et ki, reqemleri cemi 3-e bolunsun

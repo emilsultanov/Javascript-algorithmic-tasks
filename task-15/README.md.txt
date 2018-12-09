@@ -1,1 +1,0 @@
-Write a JavaScript program to remove duplicate items from current array

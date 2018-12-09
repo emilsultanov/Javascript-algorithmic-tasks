@@ -1,1 +1,0 @@
-1-den 100-e qeder ededlerin cemi 7 bolunurmu?

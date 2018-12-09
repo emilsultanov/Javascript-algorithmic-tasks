@@ -1,1 +1,0 @@
-1-den 1000-e qeder ededlerin icerisinde hem 7-e, hemde 8-e bolunenlerin siyahisi

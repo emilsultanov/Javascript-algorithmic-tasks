@@ -1,1 +1,0 @@
-1-den 1000-e qeder ederlerin icerisinden  ele ededleri cap etki : hem reqemleri cemi 5-e bolunsun, hem de ozu 5-e bolunsun

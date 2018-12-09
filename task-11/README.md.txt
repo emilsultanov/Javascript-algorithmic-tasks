@@ -1,1 +1,0 @@
-Find Sum of Squares of Numbers from 1 to n.

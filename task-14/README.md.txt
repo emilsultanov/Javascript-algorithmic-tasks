@@ -1,1 +1,0 @@
-N digits are given. Find median. Input:In the first line the number of elements n  is given. In the second line the elements are given.Output: Median of n digits.
