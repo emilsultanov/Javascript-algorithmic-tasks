@@ -1,0 +1,1 @@
+Verilmish 3 reqemli ededdin I ve III reqemlerinin cemi II reqeme beraberdirmi?  Beli ve Xeyr 	cavabini  (console.log()) ile yaz

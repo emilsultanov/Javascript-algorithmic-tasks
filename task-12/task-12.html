@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        function check(a, b, c) {
+            if (a <= c && b <= c) {
+                sum = a + b;
+                if (sum == c) {
+                    console.log('yesss');
+                }
+                else console.log('no');
+            }
+            else if (b <= a && c <= a) {
+                sum = b + c;
+                if (sum == a) {
+                    console.log('yess');
+                }
+                else console.log('no');
+            }
+            else {
+                sum = a + c;
+                if (sum == b) {
+                    console.log('yess');
+                }
+                else console.log('no');
+            }
+        }
+        check(3, 3, 6);        
+    </script>
+</body>
+
+</html>

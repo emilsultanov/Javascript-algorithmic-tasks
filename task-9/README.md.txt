@@ -1,0 +1,1 @@
+Verilmish 2 reqemli ededdin reqemleri cemi cut ededdirse o zaman hemin 2 reqemli ededdin reqemlerinin hasilini ekrana cixart.

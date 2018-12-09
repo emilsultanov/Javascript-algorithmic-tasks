@@ -1,0 +1,1 @@
+Verilmish 3 reqemli ededdin reqemleri cemi I reqemin kvadratina beraberdirmi?  Beli ve Xeyr cavabini ekrana yaz.

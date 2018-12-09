@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        function duplicateItem(array) {
+            let array2 = array;
+            let array3 = [];
+            for (let i = 0; array2.length; i++) {
+                if (array2[i + 1] == array2[i]) {
+                    array3.push(array2[i]);
+                }
+            }
+            return array3;
+        }
+        let array = [9, 9, 111, 2, 3, 4, 4, 5, 5, 7]
+        let newArray = duplicateItem(array);
+        console.log(newArray);
+
+
+    </script>
+</body>
+
+</html>

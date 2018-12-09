@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        function showAnswer(number) {
+            let sum = 0, copy = number;
+            if (number > 99 && number < 1000) {
+                while (copy > 0) {
+                    r = copy % 10;
+                    copy = Math.floor(copy / 10);
+                    sum += r;
+                }
+                if (sum == Math.pow(r, 2)) console.log('yess');
+                else console.log('no');
+            }
+            else console.log('ucreqemli eded daxil edin!!!');
+
+        }
+        showAnswer(100)
+
+    </script>
+</body>
+
+</html>
