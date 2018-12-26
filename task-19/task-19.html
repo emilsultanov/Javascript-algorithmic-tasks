@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        function check(object, property) {
+            for (key in object) {
+                if (property == key) {
+                    console.log(property)
+                }
+                else console.log('not found')
+            }
+        }
+        let student = {
+            name: 'Emil',
+            surname: 'Sultanov',
+            age: 20,
+            group: 666
+        }
+        check(student, 'name')
+    </script>
+
+
+</body>
+
+</html>

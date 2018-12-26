@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        function circle() {
+            this.area = function (radius) { console.log('area = '+3.14 * Math.pow(radius, 2)) };
+            this.perimeter = function (radius) { console.log('perimeter = '+Math.floor(2 * 3.14 * radius)) };
+        }
+        let newcircle = new circle();
+        newcircle.area(5);
+        newcircle.perimeter(5);
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        function Student(name, surname, birthday, group, currentyear) {
+            this.name = name;
+            this.surname = surname;
+            this.birthday = birthday;
+            this.group = group;
+            this.currentyear = currentyear;
+            this.calculate = function () {
+                return (this.currentyear - this.birthday);
+            }
+        }
+        let Emil = new Student('Emil', 'Sultanov', 1998, 666, 2018);
+        console.log(Emil.calculate());
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+
+        // function armstrong(a) {
+        //     let number, k = 0; copy = a;
+        //     while (copy > 0) {
+        //         number = copy % 10;
+        //         copy = Math.floor(copy / 10);
+        //         k += Math.pow(number, 3);
+        //     }
+        //     if (k == a) {
+        //         console.log(a + ' is armstrong number');
+        //     }
+        //     else console.log(a + ' is not armstrong number');
+
+        // }
+        // armstrong(153);
+
+
+
+        function armstrong(start, end) {
+            for (; start < end; start++) {
+                let number, k = 0, copy = start;
+                while (copy > 0) {
+                    number = copy % 10;
+                    copy = Math.floor(copy / 10);
+                    k += Math.pow(number, 3);
+                }
+                if (k == start) console.log(start);
+            }
+        }
+        armstrong(10, 100);
+
+        
+    </script>
+</body>
+
+</html>
